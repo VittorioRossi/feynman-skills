@@ -1,7 +1,8 @@
 # feynman-skills
 
-Vittorio's personal [Agent Skills](https://code.claude.com/docs/en/skills), packaged as a
-[Claude Code](https://claude.com/claude-code) plugin marketplace.
+Feynman first principles distilled into a set of skills to use when working on research projects. If you find yourself prompting agents without really understanding the principles and assumptions of your work, this skill is for you.
+
+Packaged as a [Claude Code](https://claude.com/claude-code) plugin marketplace of [Agent Skills](https://code.claude.com/docs/en/skills).
 
 Skills are plain directories holding a `SKILL.md`, a portable, agent-agnostic format. The plugin wrapper is a Claude Code convenience; any agent that can read a Markdown instruction file can use these.
 
