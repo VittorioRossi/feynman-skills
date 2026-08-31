@@ -9,7 +9,7 @@
 set -uo pipefail
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
-MARKET="claude-skills"
+MARKET="feynman-skills"
 PLUGIN="feynman"
 fail() { echo "FAIL: $*" >&2; exit 1; }
 

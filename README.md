@@ -1,4 +1,4 @@
-# claude-skills
+# feynman-skills
 
 Vittorio's personal [Agent Skills](https://code.claude.com/docs/en/skills), packaged as a
 [Claude Code](https://claude.com/claude-code) plugin marketplace.
@@ -10,8 +10,8 @@ Skills are plain directories holding a `SKILL.md`, a portable, agent-agnostic fo
 ### Claude Code (recommended)
 
 ```
-/plugin marketplace add vittoriorossi/claude-skills
-/plugin install feynman@claude-skills
+/plugin marketplace add VittorioRossi/feynman-skills
+/plugin install feynman@feynman-skills
 ```
 
 Skills then show up as `feynman:<skill-name>` and are invoked like any other skill.
@@ -19,7 +19,7 @@ Skills then show up as `feynman:<skill-name>` and are invoked like any other ski
 To update later:
 
 ```
-/plugin marketplace update claude-skills
+/plugin marketplace update feynman-skills
 ```
 
 To develop against a local clone instead of GitHub:
@@ -33,8 +33,8 @@ To develop against a local clone instead of GitHub:
 Copy the skills straight into your skills directory. Per-user:
 
 ```bash
-git clone https://github.com/vittoriorossi/claude-skills.git
-cp -r claude-skills/skills/* ~/.claude/skills/
+git clone https://github.com/VittorioRossi/feynman-skills.git
+cp -r feynman-skills/skills/* ~/.claude/skills/
 ```
 
 Or per-project, so the skills are committed alongside a repo — copy into `.claude/skills/` of that project instead.

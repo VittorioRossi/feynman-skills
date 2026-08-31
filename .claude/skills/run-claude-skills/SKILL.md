@@ -73,7 +73,7 @@ These are the traps, all hit for real in this repo:
   registered.** Use `update` from then on. The driver falls back automatically.
 
 ```bash
-claude plugin marketplace update claude-skills
+claude plugin marketplace update feynman-skills
 ```
 
 ## Troubleshooting
@@ -83,7 +83,7 @@ claude plugin marketplace update claude-skills
 | `FAIL: <dir>: frontmatter name 'x' != directory 'y'` | Rename the directory to match `name:`, or edit `name:`. `git mv skills/y skills/x` |
 | Agent says the skill does not exist, but `plugin details` lists it | Session skill list is stale. Restart the session. |
 | Inventory shows `Skills (0)` | No `skills/*/SKILL.md`, or the file lacks frontmatter. |
-| Changes to a skill do not take effect | `claude plugin marketplace update claude-skills` — the installed copy is read through the marketplace. |
+| Changes to a skill do not take effect | `claude plugin marketplace update feynman-skills` — the installed copy is read through the marketplace. |
 
 ## Inspect installed state
 
