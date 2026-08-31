@@ -1,0 +1,21 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Vittorio Rossi",
+    "url": "https://github.com/vittoriorossi"
+  },
+  "metadata": {
+    "description": "Vittorio's personal Claude Code skills",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "feynman",
+      "source": "./",
+      "description": "Personal skills collection: explain, learn, and reason in the Feynman style.",
+      "version": "0.1.0",
+      "author": { "name": "Vittorio Rossi" },
+      "keywords": ["learning", "explanation", "feynman"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "feynman",
+  "description": "Personal skills collection: explain, learn, and reason in the Feynman style.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vittorio Rossi"
+  },
+  "homepage": "https://github.com/vittoriorossi/claude-skills",
+  "license": "MIT",
+  "repository": "https://github.com/vittoriorossi/claude-skills",
+  "keywords": [
+    "learning",
+    "explanation",
+    "feynman"
+  ]
+}
